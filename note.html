@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Notes by sequraa</title>
+  <link rel="icon" type="image/x-icon" href="logo.png">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' data:;">
+  <script src="js/jsForFonts/jspdf.umd.min.js"></script>
+</head>
+<body>
+  <div class="header flex" id="header">
+    <div class="main-title-text-box flex">
+      <h2 class="main-title-text" id="main-title-text">Paani gila kyun hota hai | IAS question | Mock interview</h2>
+      <div class="primary-btn-dark flex" id="main-title-drop-down-btn">
+        <i class="fa-solid fa-chevron-down pirimar-icon-dark"></i>
+      </div>
+    </div>
+    <div class="nav-links">
+      <ul class="flex">
+        <li><a href="https://notes.sequraa.com" target="_blank" class="hover-link flex expandable-btn" id="offlineVideoPlayer">
+          <div class="expandable-btn-text not-visible">Offline player</div>
+          <i class="fa-brands fa-youtube pirimar-icon"></i>
+        </a>
+        </li>
+        <li><div class="hover-link flex expandable-btn" id="darkModeToggleBtn">
+          <div class="expandable-btn-text not-visible" id="dark-mode-text">Dark Mode</div>
+          <i class="fa-solid fa-circle-half-stroke pirimar-icon"></i>
+        </div>
+        </li>
+        <li><div class="hover-link flex expandable-btn" id="delete-chapter-btn">
+          <div class="expandable-btn-text not-visible">Delete Chapter</div>
+          <i class="fa-solid fa-trash pirimar-icon"></i>
+        </div>
+        </li>
+        <li><div class="hover-link flex primary-btn" id="export-as-pdf-btn">
+          <div class="export-as-pdf-text">Export as HTML</div>
+          <i class="fa-solid fa-file-code pirimar-icon"></i>
+        </div>
+        </li>
+      </ul>
+    </div>
+  
+    <!-- Navigation bar for main titles -->
+  </div>
+
+  <div class="yellow-line">
+  </div>
+  
+  <div id="content">
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search here..." />
+    </div>
+    <div class="new" id="sub-aside-container">
+      <!-- Sidebar for sub-titles and small screenshot previews -->
+    <aside id="sub-titles-aside">
+        <!-- <div class="note-item">
+            <img class="fit-picture" src="\Screenshot 2024-04-14 094416.png"/>
+            <p>Testing size and desigh</p>
+        </div> -->
+       
+      <!-- Sub-titles and previews will be added here dynamically -->
+    </aside>
+    </div>
+    
+   <div class="newone" id="main-content-container">
+    <div class="make-display-change-to-desable-sub-title" id="make-display-change-to-desable-sub-title">
+      <i class="fa-solid fa-arrow-up" id="sub-title-e-d-icon"></i>
+    </div>
+     <!-- Main area for full-size screenshot and sub-title -->
+     <main id="main-content">
+        <!-- <img class="fit-picture" style="width: 100%;" src="\Screenshot 2024-04-14 094416.png"/>
+        <div class="title-card" id="title-card-id">
+          <div class="title-container" id="title-container-id">
+            <h2>Title</h2>
+            <div class="edit-title-card" id="edit-title-card-id">
+              <i class="fa-regular fa-pen-to-square" id="edit-title-icon-id"></i>
+            </div>
+          </div>
+        </div> -->
+      <!-- Full-size screenshot and sub-title will be displayed here -->
+    </main>
+   </div>
+  </div>
+
+  <div class="main-title-list-container transition-visible-container" id="main-title-list-container">
+    <!-- <div class="item-list">
+      <a href="#">
+        <div class="item-text text-size-1-5rem text-color-black">Paani gila kyun hota hai | IAS question | Mock interview</div>
+        <div class="item-details text-size-0-8rem flex">
+          <div class="item-date-time text-color-black">12 Apr 2024 | 12:00 PM</div>
+          <div class="item-total-screen-shots text-color-black">Total Screenshot: 20</div>
+        </div>
+      </a>
+    </div>
+    <div class="dark-line"></div> -->
+  </div>
+
+  <div class="show-main-content-in-full-screen" id="show-main-content-in-full-screen">
+    <!-- <img src="\Screenshot 2024-04-14 094416.png"> -->
+  </div>
+  <script src="js/jsForFonts/lz-string.min.js"></script>
+  <script src="/js/jsForNotePage/note.js"></script>
+</body>
+</html>
